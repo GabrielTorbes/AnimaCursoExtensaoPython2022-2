@@ -41,7 +41,7 @@ print(f"O dobro da sua idade é: {soma}")
 #Estrutura condicional - o famoso "SE" (if)
 #Se a pessoa for maior de idade, mostre "Você é maior de idade, ótimo! Já pode beber e dirigir"
 if (idade1 >= 18):
-  print(f"Parábens {nome1}, Você é maior de idade, ótimo! Já pode beber e dirigir.")
+  print(f"Parabéns {nome1}, Você é maior de idade, ótimo! Já pode beber e dirigir.")
    
 else:
   
@@ -52,6 +52,21 @@ genero= input("Qual o seu Gênero Marculino = M / Feminino = F: ")
 if (idade>= 17 and genero == "M"):
   print("Pelo visto você já fez o alistamento militar ou está fazendo.")
 
+
+nota= float(input("Qual foi sua nota na prova: "))
+
+if (nota == 10):
+  print(f"Parábens {nome1} você é o bixão, mesmo hein doido")
+elif (nota>=6 and nota <10):
+  print("Parabéns você passou na prova!!!")
+else:
+  print("Burro, não passou")
+
+
+numero = 1
+print(numero)
+numero = numero + 1
+print(numero)
   
 
 
