@@ -42,8 +42,19 @@ print(f"O dobro da sua idade é: {soma}")
 #Se a pessoa for maior de idade, mostre "Você é maior de idade, ótimo! Já pode beber e dirigir"
 if (idade1 >= 18):
   print(f"Parábens {nome1}, Você é maior de idade, ótimo! Já pode beber e dirigir.")
-
+   
 else:
+  
   print(f"Putz {nome1}, você ainda é novo demais para beber e dirigir.")
 
+genero= input("Qual o seu Gênero Marculino = M / Feminino = F: ")
+
+if (idade>= 17 and genero == "M"):
+  print("Pelo visto você já fez o alistamento militar ou está fazendo.")
+
+  
+
+
+ 
+    
 
