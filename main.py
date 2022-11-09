@@ -23,6 +23,7 @@ print("Minha idade é {} anos".format(idade))
 #Quando quiser colocar duas variaves com .format
 print("Meu nome é {} e eu tenho {} anos".format(nome,idade))
 
+##Aula 2
 ##Quando quiser que o usuario digite o seu nome
 nome1= input("Digite Seu Nome: ")
 
@@ -65,9 +66,12 @@ else:
 
 numero = 1
 print(numero)
-numero = numero + 1
+numero = numero + 1 #numero += 1
 print(numero)
   
+##Aula 3
+
+
 
 
  
