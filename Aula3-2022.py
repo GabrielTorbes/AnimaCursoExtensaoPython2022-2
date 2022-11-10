@@ -47,5 +47,3 @@ print("Exemplo das frutas com FOR...")
 
 for f in frutas:
   print(f)
-  
-
