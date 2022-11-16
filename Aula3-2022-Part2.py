@@ -41,5 +41,3 @@ for valor in valores:
   for valor in valores:
     print(f"O imposto de {valor} é {calcular_imposto_aliquota(valor,10)}")
   
-  
-  
