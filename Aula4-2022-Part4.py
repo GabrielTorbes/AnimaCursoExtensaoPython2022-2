@@ -1,10 +1,10 @@
 import Aula4_2022_Part3 as bd
 
-coo, cur = bd.conectar()
+con, cur = bd.conectar()
 
-nome = input("Digite o nome do herói/vilão")
-nome = input("Digite o nome civil do herói/vilão(Sua identidade secreta):")
-tipo_numerico = input("Tecle 1 pra Herói(na) ou 2 para Vilão(o)")
+nome = input("Informe o nome do herói/vilão: ")
+nome_civil = input("Informe o nome civil do herói/vilão (sua identidade secreta): ")
+tipo_numerico = input("Tecle 1 para Herói(na) ou 2 para Vilã(o)")
 
 #Consulta para o valor máximo usado no banco
 sql = "SELECT MAX(pessoa_id)+1 FROM pessoas"
