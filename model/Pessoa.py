@@ -4,6 +4,10 @@ class Pessoa:
   nome = None
 
   #Método Construtor
-  def _init_(self, id, nome):
+  def init(self, id, nome):
     self.id = id
     self.nome = nome
+
+  #Método para ajudar na exibição
+  def str(self):
+    return(f"{self.nome} ({self.id})")
